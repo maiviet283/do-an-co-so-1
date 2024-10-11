@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#wrapper {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#header {
+    width: 100%;
+    padding: 0px 30px;
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Các phần còn lại của mã CSS vẫn giữ nguyên */
+
+
+#logoquan {
+    /* margin-left: 300px; */
+    width: 60px;
+    height: 60px;
+}
+
+#menu {
+    list-style:none;
+    display: flex;
+}
+
+#menu .item {
+    margin:0px 25px;
+}
+
+#menu .item a {
+    color:#626A67;
+    text-decoration: none;
+}
+
+
+#actions {
+    display: flex;
+}
+
+#actions .item {
+    margin-left:22px;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+button {
+    background: none;         /* Không có nền */
+    border: none;            /* Không có viền */
+    color: inherit;          /* Kế thừa màu chữ từ phần tử cha */
+    padding: 0;              /* Không có khoảng cách bên trong */
+    margin: 0;               /* Không có khoảng cách bên ngoài */
+    font: inherit;           /* Kế thừa font từ phần tử cha */
+    cursor: pointer;        
+}

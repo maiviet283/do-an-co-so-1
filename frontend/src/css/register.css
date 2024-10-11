@@ -1,0 +1,53 @@
+.no-underline-login {
+    text-decoration: none;
+}
+
+.register-container {
+    background-color: #8bec65;
+    padding: 20px;
+    border-radius: 8px;
+    width: 660px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#title-register {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-field {
+    width: 48%;
+}
+
+#submit-register {
+    background-color: #2753e2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 17px;
+}
+
+#submit-register:hover {
+    background-color: #df5466;
+}
+
+#username-register, #phone-register, #email-register, #password-register {
+    background-color: #e3c4f0;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

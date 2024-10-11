@@ -1,0 +1,122 @@
+/* CSS cho Details Component */
+.details-container {
+    margin-top: 20px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    border: 1px solid rgb(75, 1, 1);
+    background-color: rgb(0,0,0,0.79);
+}
+
+.details-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.details-header h1 {
+    font-size: 2.5em;
+    color: #4a90e2;
+    margin: 0;
+}
+
+.details-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details-content img {
+    width: 270px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.details-content .info {
+    flex: 1;
+}
+
+.h2-details {
+    font-size: 2em;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info-list li {
+    font-size: 1.1em;
+    margin: 5px 0;
+    color: #666;
+}
+
+.info-list li strong {
+    color: #333;
+}
+
+.info-list li button {
+    margin: 5px 5px 0 0;
+}
+
+.button-details-s {
+    display: inline-block;
+    padding: 6px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-details-s:hover {
+    background-color: #0056b3;
+}
+
+.button-details {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #e94e77;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-details:hover {
+    background-color: #d43f5e;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    .details-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .details-content img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .button-details {
+        max-width: 100%;
+    }
+}
